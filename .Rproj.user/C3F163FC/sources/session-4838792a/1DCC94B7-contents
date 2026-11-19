@@ -1,0 +1,335 @@
+---
+title: "Kolloquium für BA und MA Abschlussarbeiten"
+subtitle: "Sitzung 2: Themenfindung und Forschungsfrage"
+author: "David Schweizer"
+institute: |
+  RPTU Kaiserslautern-Landau\
+  Lehrstuhl für Policy-Analyse und Politische Ökonomie
+date: 2026-11-17
+date-format: "DD.MM.YYYY"
+lang: de
+format:
+  revealjs:
+    theme: [default, rptu.scss]
+    logo: rptu-logo.png
+    footer: "RPTU Kaiserslautern-Landau | WiSe 2026/27"
+    slide-number: true
+    transition: none
+    width: 1600
+    height: 900
+title-slide-attributes:
+  data-background-color: "#042c58"
+execute:
+  echo: true
+  warning: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(ggplot2)
+library(showtext)
+
+rptu_cols <- c(
+  dunkelblau  = "#042c58", hellblau   = "#6ab2e7",
+  blaugrau    = "#507289", gruengrau  = "#77b6ba",
+  dunkelgruen = "#006b6b", hellgruen  = "#26d07c",
+  violett     = "#4c3575", pink       = "#d13896",
+  rot         = "#e31b4c", orange     = "#ffa252"
+)
+
+font_add_google("Red Hat Text", "Red Hat Text")
+showtext_auto()
+knitr::opts_chunk$set(fig.showtext = TRUE)
+```
+
+## Plan für das restliche Semester
+
+| Datum | Thema | Format |
+|------------------|------------------------------------------|------------------|
+| **17.11.2026** | **Themenfindung und Forschungsfrage** | **Präsenz** |
+| 01.12.2026 | Literaturrecherche, Forschungsstand und Zotero | Präsenz |
+| 15.12.2026 | Theorie als Analyserahmen; KI beim Schreiben | Online (hybrid möglich) |
+| 12.01.2027 | Qualitative Methoden in der Praxis | Online (hybrid möglich) |
+| 19.01.2027 | Gliederung, roter Faden und Schreiben | Präsenz |
+| 02.02.2027 | Endspurt: Einleitung, Fazit, Überarbeiten, Formalia | Präsenz |
+
+. . .
+
+-   Am 01.12. stellt jede:r kurz die eigene Forschungsfrage vor
+-   Ab dem 15.12. stellt ihr in **Werkstattberichten** ausführlicher vor, woran ihr gerade arbeitet
+-   Der Plan ist nicht in Stein gemeißelt: Wir passen ihn an eure Bedürfnisse an
+
+::: notes
+Hier kurz nachfragen, ob Themen fehlen oder anders gewichtet werden sollen. Termine für die Werkstattberichte am Ende der Sitzung verteilen.
+:::
+
+## Heute
+
+1.  Vom Thema zur Forschungsfrage
+2.  Übung: Forschungsfragen bewerten
+3.  Eure eigenen Ideen schärfen
+4.  Ausblick auf den 01.12.
+
+Noch keine Idee? Kein Problem, genau dafür ist die Sitzung da.
+
+# Vom Thema zur Forschungsfrage {background-color="#042c58"}
+
+## Thema ≠ Forschungsfrage
+
+::::: columns
+::: {.column width="50%"}
+-   Ein **Thema** beschreibt ein Feld, über das man viel sagen könnte
+-   Eine **Forschungsfrage** schneidet daraus ein handhabbares, klar begrenztes Problem heraus
+-   Sie legt fest, **was eine vollständige Antwort** wäre (vgl. Powner 2015, S. 6)
+:::
+
+::: {.column width="50%"}
+**Themenfeld:** Klimapolitik
+
+[↓]{.fragment fragment-index="1"}\
+[**Thema:** Konflikte um klimapolitische Maßnahmen in Deutschland]{.fragment fragment-index="1"}
+
+[↓]{.fragment fragment-index="2"}\
+[**Gegenstand:** Bundestagsdebatten zum Gebäudeenergiegesetz („Heizungsgesetz“) 2023]{.fragment fragment-index="2"}
+
+[↓]{.fragment fragment-index="3"}\
+[**Frage:** Wie begründen die Fraktionen ihre Positionen, und welche Rolle spielen dabei Argumente sozialer Gerechtigkeit?]{.fragment fragment-index="3"}
+:::
+:::::
+
+## Beschreibend oder analytisch?
+
+| Beschreibend | Analytisch |
+|------------------------------------|------------------------------------|
+| Was fordert die Partei X in ihrem Wahlprogramm? | Wie begründet die Partei X ihre Forderungen, und wie unterscheidet sich das von Partei Y? |
+| Wann wurde das EU-Verbrenner-Aus beschlossen? | Wie begründete die Bundesregierung ihren Widerstand gegen das Verbrenner-Aus? |
+| Was steht im Koalitionsvertrag zur Migrationspolitik? | Wie hat sich die Darstellung von Migration in Koalitionsverträgen seit 2013 verändert? |
+
+. . .
+
+**Für eine Abschlussarbeit:** Die Frage sollte mehr verlangen als Zusammenfassen. Qualitative Fragen fragen oft nach dem **Wie**: Wie wird etwas begründet, dargestellt, konstruiert?
+
+## Was zeichnet eine gute Forschungsfrage aus?
+
+-   **Wissenschaftliche Relevanz:** Sie knüpft an den Forschungsstand an und leistet einen (kleinen) Beitrag
+-   **Gesellschaftliche Relevanz:** Es gibt einen Grund, warum die Antwort über den Einzelfall hinaus interessiert
+-   **Machbarkeit:** Sie passt zum Umfang einer BA- bzw. MA-Arbeit, und das Material ist zugänglich
+-   **Theoriebezug:** Sie lässt sich mit bestehenden Konzepten oder Theorien verbinden (nicht nur aus der Politikwissenschaft)
+
+## Was sollte man vermeiden?
+
+-   Fragen mit rein **faktischen Antworten** (*Wie viele Sitze hat Partei X?*)
+-   Fragen zu einem **Einzelfall, ohne zu sagen, wofür er ein Beispiel ist**
+-   Fragen, die **nicht ergebnisoffen** sind oder die Antwort schon enthalten
+-   Fragen, die **viel zu breit** sind (*Wie wirkt sich der Klimawandel auf die Gesellschaft aus?*)
+
+::: notes
+Einzelfälle sind für Abschlussarbeiten oft genau richtig. Entscheidend ist, dass klar wird, wofür der Fall ein Beispiel ist (z. B. die Debatte zum Gebäudeenergiegesetz als Fall für Konflikte um klimapolitische Maßnahmen).
+:::
+
+## Wie finde ich eine Fragestellung?
+
+Typische Wege über die Literatur (nach King, Keohane & Verba 1994)
+
+::: panel-tabset
+### Prüfen
+
+**1. Eine wichtige Annahme wurde noch nicht systematisch untersucht**
+
+-   *Ausgangslage:* Oft heißt es, die Klimaproteste ab 2019 hätten die Parteien verändert.
+-   *Mögliche Frage:* **Haben sich die Wahlprogramme zwischen 2017 und 2021 tatsächlich verändert?**
+
+### Widerlegen
+
+**2. Eine akzeptierte Annahme könnte falsch sein**
+
+-   *Ausgangslage:* Wer Klimaschutz grundsätzlich befürwortet, unterstützt auch konkrete Maßnahmen.
+-   *Mögliche Frage:* **Gilt das noch, wenn es um die eigene Heizung geht?**
+
+### Kontroverse
+
+**3. Zu einer Kontroverse in der Literatur beitragen**
+
+-   *Ausgangslage:* Ist Populismus eine Gefahr oder ein Korrektiv für die Demokratie?
+-   *Mögliche Frage:* **Wie stellen populistische Parteien in Parlamentsreden ihr Verhältnis zu demokratischen Institutionen dar?**
+
+### Hinterfragen
+
+**4. Unhinterfragte Annahmen in der Literatur hinterfragen**
+
+-   *Ausgangslage:* Parteien werden oft als einheitliche Akteure behandelt.
+-   *Mögliche Frage:* **Wie unterschiedlich argumentieren Landesverbände derselben Partei zum Ausbau der Windkraft?**
+
+### Lücke
+
+**5. In der Literatur vernachlässigte Themen beleuchten**
+
+-   *Ausgangslage:* Die Forschung zu Klimaprotesten konzentriert sich auf Großstädte.
+-   *Mögliche Frage:* **Wie mobilisieren Klimagruppen im ländlichen Raum?**
+
+### Übertragen
+
+**6. Theorien aus einem Forschungsfeld auf ein anderes übertragen**
+
+-   *Ausgangslage:* Das Konzept der Verlustaversion stammt aus der Verhaltensökonomie.
+-   *Mögliche Frage:* **Wird in Debatten über das Verbrenner-Aus vor allem mit drohenden Verlusten argumentiert statt mit möglichen Gewinnen?**
+:::
+
+. . .
+
+**Aber:** Der Ausgangspunkt muss nicht die Literatur sein. Inspiration kann auch aus Zeitungen, Debatten, Praktika oder dem eigenen Studium kommen.
+
+# Übung {background-color="#042c58"}
+
+## Forschungsfragen bewerten (1/2)
+
+Wie gut sind diese Fragen? *(Relevant? Machbar? Ergebnisoffen? Analytisch?)*
+
+1.  Wie wirkt sich der Klimawandel auf die Gesellschaft aus?\
+    [**→ Viel zu breit: kein klarer Gegenstand, kein Material, keine vollständige Antwort möglich.**]{.fragment style="color: #042c58;"}
+2.  Warum sprechen Kandidierende im Wahlkampf so viel über Außenpolitik, obwohl nur wenige Wähler:innen danach entscheiden?\
+    [**→ Gutes Rätsel: Etwas passt nicht zusammen, und genau das will die Frage erklären.**]{.fragment style="color: #042c58;"}
+3.  Warum führt die Nutzung sozialer Medien zur Vereinsamung junger Menschen?\
+    [**→ Nicht ergebnisoffen: Die Frage setzt voraus, dass soziale Medien einsam machen. Offener: Wie beschreiben junge Menschen die Rolle sozialer Medien für ihre Beziehungen?**]{.fragment style="color: #042c58;"}
+
+::: notes
+Erst diskutieren lassen, dann die Antworten nacheinander per Klick einblenden.
+:::
+
+## Forschungsfragen bewerten (2/2)
+
+Wie gut sind diese Fragen? Was würdet ihr ändern? *(Relevant? Machbar? Ergebnisoffen? Analytisch?)*
+
+4.  Wie argumentieren Politiker:innen über Klimapolitik?\
+    [**→ Zu breit und unklar: Welche Akteure, welches Material, welcher Zeitraum, welcher Aspekt?**]{.fragment style="color: #042c58;"}
+5.  Welche Maßnahmen hat die Landesregierung Rheinland-Pfalz seit 2016 zum Ausbau der Ganztagsschule ergriffen?\
+    [**→ Klingt nach Forschung, ist aber beschreibend: Die Antwort wäre eine Auflistung. Analytischer: Wie begründen Landesregierung und Opposition ihre Positionen zum Ausbau der Ganztagsschule?**]{.fragment style="color: #042c58;"}
+
+::: notes
+Erst alle Fragen diskutieren lassen, dann die Antworten nacheinander per Klick einblenden.
+:::
+
+## Mini-Übung: Frage 4 verbessern
+
+**3 Minuten, allein oder zu zweit:**
+
+Macht aus *„Wie argumentieren Politiker:innen über Klimapolitik?“* eine gute Forschungsfrage.
+
+::: {.callout-tip title="Tipp" icon="false"}
+Legt fest: **Wer?** (Akteure) · **Woran?** (Material) · **Wann?** (Zeitraum) · **Was genau?** (Aspekt)
+:::
+
+. . .
+
+**Vergleich:** Wie habt ihr eingegrenzt? Es gibt nicht *die eine* richtige Lösung!
+
+. . .
+
+[**Eine mögliche Lösung:** Wie begründen die Bundestagsfraktionen in den Plenardebatten zum Gebäudeenergiegesetz 2023 ihre Positionen, und welche Rolle spielen dabei Argumente sozialer Gerechtigkeit?]{style="color: #042c58;"}
+
+::: notes
+Lösungen der Studierenden nebeneinander an die Tafel schreiben. Zeigt gut, wie unterschiedlich man dasselbe Thema eingrenzen kann. Erst danach die mögliche Lösung einblenden.
+
+Zur Lösung: klarer Gegenstand, zugängliches Material (Plenarprotokolle), analytischer Fokus. Diskussion: Wie wird "soziale Gerechtigkeit" erfasst? Ist der zweite Teil der Frage zu eng oder genau richtig?
+:::
+
+# Eure Ideen schärfen {background-color="#042c58"}
+
+## Bevor es losgeht: Machbarkeit und Betreuung
+
+::::: columns
+::: {.column width="50%"}
+**Ist meine Idee machbar?**
+
+-   **Zeit:** Passt das Vorhaben in die Bearbeitungszeit meiner Prüfungsordnung?
+-   **Material:** Ist es frei zugänglich, oder bin ich auf Zusagen anderer angewiesen (z. B. Interviews)?
+-   **Sprache:** Kann ich das Material sprachlich gut bearbeiten?
+-   **Forschungsstand:** Gibt es genug Anknüpfungspunkte, aber noch Raum für einen eigenen Beitrag?
+:::
+
+::: {.column width="50%"}
+**Wann zur Betreuung?**
+
+-   **Früh!** Auch mit einer vagen Idee darfst du in die Sprechstunde kommen
+-   **Mitbringen:** eine erste Frage, 2–3 Sätze zur Relevanz, eine Idee zum Material
+-   **Fragen:** Welche Themen betreut der Lehrstuhl? Gibt es Themenvorschläge?
+:::
+:::::
+
+::: notes
+Als Checkliste für die folgende Übung nutzen: Bei jeder Idee kurz Zeit, Material, Sprache und Forschungsstand durchgehen.
+:::
+
+## So gehen wir vor
+
+-   Jede:r stellt die eigene Idee kurz vor (2–3 Minuten)
+-   Wir arbeiten gemeinsam daran weiter: Was genau interessiert dich? Welches Material? Ist das machbar?
+-   Die **Leitfragen und Fragemuster aus der E-Mail** helfen dabei
+-   Ziel: eine erste, vorläufige Forschungsfrage
+
+::: notes
+Pro Person ca. 5–8 Minuten. Erst kurz vorstellen lassen, dann gemeinsam an der Frage arbeiten. Bei Bedarf die Fragemuster aus der E-Mail aufgreifen (Wie argumentieren [Akteure] zu [Thema]? usw.).
+
+Backup für alle ohne Thema, "Question Storming": Person nennt ein breites Interessensfeld (z. B. Social Media, Bildungspolitik). Alle schreiben 3 Minuten lang so viele Fragen wie möglich auf, ohne zu bewerten. Die Person wählt die 1–2 spannendsten aus.
+:::
+
+## Leitfragen und Fragemuster
+
+::: panel-tabset
+### Thema finden
+
+-   Welches Seminar oder welcher Text aus deinem Studium ist dir besonders in Erinnerung geblieben, und warum?
+-   Welche politische oder gesellschaftliche Debatte verfolgst du gerade mit Interesse oder auch mit Ärger?
+-   Gibt es etwas aus deinem Alltag, Nebenjob, Praktikum oder deiner Schulerfahrung, das du genauer verstehen möchtest?
+-   Welche Themen könnten für deinen weiteren Weg nützlich sein, etwa für einen Master oder ein Berufsfeld?
+-   Mit welchem Material würdest du gern arbeiten, z. B. Reden, Parteiprogrammen, Zeitungsartikeln, Talkshows oder Interviews?
+
+### Eingrenzen
+
+-   Um welche **Akteure** geht es?
+-   Welcher **Zeitraum**?
+-   Welches **Land** oder welcher **Kontext**?
+-   Welcher **Aspekt** interessiert dich am meisten?
+
+### Frage formulieren
+
+-   Wie argumentieren [Akteure] zu [Thema]?
+-   Wie wird [Thema] in [Medien, Debatten, Dokumenten] dargestellt?
+-   Warum kommt es zu [Entwicklung, Ereignis]?
+-   Wie hat sich [Thema] im Laufe der Zeit verändert?
+-   Worin unterscheiden sich [A] und [B] in Bezug auf [Thema]?
+-   Welche Folgen hat [Entscheidung, Entwicklung]?
+
+*Beispiel:* Klimapolitik → „Wie argumentieren die Bundestagsparteien in Plenardebatten zum Heizungsgesetz?“
+:::
+
+::: notes
+Kennen die Studierenden schon aus der E-Mail. Je nach Stand der Person den passenden Tab öffnen: „Thema finden“ für alle ohne Idee, „Eingrenzen“ und „Frage formulieren“ für alle mit einer ersten Idee.
+:::
+
+## Zum Abschluss
+
+Notiert für euch:
+
+1.  Eure **aktuelle Forschungsfrage**, auch wenn sie noch vorläufig ist
+2.  Euren **nächsten Schritt**, z. B. drei Aufsätze zum Thema suchen oder klären, ob das Material zugänglich ist
+
+. . .
+
+**Die Themenfindung ist ein Prozess, in dem sich Ideen verändern dürfen. Richtig oder falsch gibt es dabei erst einmal nicht!**
+
+# Bis zum 01.12. {background-color="#042c58"}
+
+-   **Aufgabe:** Formuliert eure Forschungsfrage und begründet in 4–5 Sätzen, warum sie interessant und relevant ist. Bitte bis **30.11. 13:00 Uhr** per E-Mail.
+-   **Nächste Sitzung:** Literaturrecherche, Forschungsstand und Zotero
+-   **Zum Weiterlesen (optional):** Plümper (2012), *Effizient schreiben*, Kapitel 3
+-   **Bitte mitbringen:** Laptop mit installiertem Zotero und Zotero Connector ([zotero.org](https://www.zotero.org))
+-   **Am 01.12.:** Jede:r stellt die eigene Forschungsfrage kurz vor (2–3 Minuten)
+-   **Es ist kein Problem, wenn ihr Fehler macht!**
+
+## Quellen
+
+-   King, G., Keohane, R. O., & Verba, S. (1994). *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press.
+-   Plümper, T. (2012). *Effizient schreiben: Leitfaden zum Verfassen von Qualifizierungsarbeiten und wissenschaftlichen Texten*. München: Oldenbourg.
+-   Powner, L. C. (2015). *Empirical Research and Writing: A Political Science Student's Practical Guide*. Los Angeles: Sage.

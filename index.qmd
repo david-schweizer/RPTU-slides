@@ -1,0 +1,18 @@
+---
+title: "Kolloquium für BA- und MA-Abschlussarbeiten"
+subtitle: "WiSe 2026/27 · RPTU Kaiserslautern-Landau"
+---
+
+Hier findet ihr die Folien zu unseren Sitzungen.
+
+| Datum | Thema | Folien |
+|----------------|-----------------------------------|----------------------|
+| 10.11.2026 | Auftakt und Planung | [Folien](slides/slides_kolloquium_sitzung1_20261110.qmd) |
+| 17.11.2026 | Themenfindung und Forschungsfrage | [Folien](slides/slides_kolloquium_sitzung2_20261117.qmd) |
+| 01.12.2026 | Literaturrecherche, Forschungsstand und Zotero |  |
+| 15.12.2026 | Theorie als Analyserahmen; KI beim Schreiben |  |
+| 05.01.2027 | Qualitative Methoden in der Praxis |  |
+| 19.01.2027 | Gliederung, roter Faden und Schreiben |  |
+| 02.02.2027 | Endspurt: Einleitung, Fazit, Überarbeiten, Formalia |  |
+
+**Kontakt:** david.schweizer\@rptu.de · Gebäude 57, Raum 476

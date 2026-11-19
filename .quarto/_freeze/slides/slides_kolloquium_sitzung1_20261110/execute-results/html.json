@@ -1,0 +1,21 @@
+{
+  "hash": "c516b068a1540c15b4ce1ceb936e4699",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Kolloquium für BA und MA Abschlussarbeiten\"\nsubtitle: \"Sitzung 1\"\nauthor: \"David Schweizer\"\ninstitute: |\n  RPTU Kaiserslautern-Landau\\\n  Lehrstuhl für Policy-Analyse und Politische Ökonomie\ndate: today\ndate-format: \"10.11.2026\"\nlang: de\nformat:\n  revealjs:\n    theme: [default, rptu.scss]\n    logo: rptu-logo.png          # download from rptu.de (Corporate Design page)\n    footer: \"RPTU Kaiserslautern-Landau | WiSe 2026/27\"\n    slide-number: true\n    transition: none\n    width: 1600\n    height: 900\ntitle-slide-attributes:\n  data-background-color: \"#042c58\"\nexecute:\n  echo: true\n  warning: false\n---\n\n\n\n## Über mich\n\n-   Wissenschaftlicher Mitarbeiter im Climplexity Projekt von Prof. Metz: Wir untersuchen, wo sich EU-Policies beim Klimaschutz gegenseitig unterstützen und wo sie sich widersprechen\n\n-   PhD in Politikwissenschaft an der Uni Mannheim\n\n-   Forschung zu Klimapolitik mit Text- und Umfragedaten\n\n-   Lehre zu Methoden in der Politikwissenschaft, Klimapolitik, und wissenschafltiches Arbeiten\n\n::: {.callout-note title=\"Kontaktmöglichkeit\" icon=\"false\"}\nWährend des Semesters via E-Mail (david.schweizer\\@rptu.de) oder bitte mit Voranmeldung persönlich (Gebäude 57, Raum 476).\\\nAußerhalb des Semesters können wir eine Online-Sprechstunde vereinbaren.\n:::\n\n# Vorstellung {background-color=\"#042c58\"}\n\n-   Name?\n-   Studiengang?\n-   Status der Anmeldung?\n-   Thema?\n\n## Unser Kolloquium für Abschlussarbeiten\n\n::::: columns\n::: {.column width=\"50%\"}\nEine Abschlussarbeit bringt **viele Fragen** mit sich:\n\n-   Wie finde ich eine gute Forschungsfrage?\n-   Was ist die passende Methode?\n-   Warum komme ich mit dem Schreiben nicht voran?\n:::\n\n::: {.column width=\"50%\" .fragment}\n**Diese Fragen besprechen wir** und:\n\n-   Grundlagen: Von Themenfindung bis zu Zeitplanung.\n-   Präsentation von Zwischenschritten und Feedback.\n-   Austausch mit anderen Studierenden.\n\n**Jeder Arbeitsstand ist willkommen!**\n:::\n:::::\n\n# Planung {background-color=\"#042c58\"}\n\n-   Orientierung an den Teilnehmenden\n-   Teils Online, teils in Präsenz\n\n# Bis nächste Woche! {background-color=\"#042c58\"}\n\n-   Vorläufiges Thema: Themenfindung und Forschungsfrage\n",
+    "supporting": [
+      "slides_kolloquium_sitzung1_20261110_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

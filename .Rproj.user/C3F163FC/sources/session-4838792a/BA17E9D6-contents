@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kolloquium Abschlussarbeiten"
+  navbar: true
+  page-footer:
+    left: "RPTU Kaiserslautern-Landau | WiSe 2026/27"
+    right: "![](/slides/rptu-logo.png){height=40}"
+
+format:
+  html:
+    theme: [cosmo, rptu-website.scss]
+    lang: de
+
+execute:
+  freeze: auto

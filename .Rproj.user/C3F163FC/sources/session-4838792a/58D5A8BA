@@ -1,0 +1,31 @@
+{
+    "id": "58D5A8BA",
+    "path": "C:/Users/David/Desktop/RPTU slides/index.qmd",
+    "project_path": "index.qmd",
+    "type": "quarto_markdown",
+    "hash": "3594886496",
+    "contents": "",
+    "dirty": false,
+    "created": 1795078372292.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "2,53",
+        "scrollLine": "0",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "2:44.4444465637207"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1795078742,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1795078742968,
+    "read_only": false,
+    "read_only_alternatives": []
+}
