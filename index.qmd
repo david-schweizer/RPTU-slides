@@ -3,6 +3,9 @@ title: "Kolloquium für BA- und MA-Abschlussarbeiten"
 subtitle: "WiSe 2026/27 · RPTU Kaiserslautern-Landau"
 ---
 
+::: {.callout-note collapse="true" icon="false"}
+## Worum geht es im Kolloquium?
+
 Eine Abschlussarbeit bringt viele Fragen mit sich: Wie finde ich eine gute Forschungsfrage? Was ist die passende Methode? Warum komme ich mit dem Schreiben nicht voran? In diesem Kolloquium treffen Sie auf andere Studierende, die sich gerade mit den gleichen Fragen beschäftigen.
 
 Das Kolloquium richtet sich an Bachelor- und Masterstudierende, die in diesem oder dem kommenden Semester ihre Abschlussarbeit schreiben. Es soll die Gespräche mit Ihrer Betreuerin oder Ihrem Betreuer nicht ersetzen, sondern ergänzen. Ein Teil der Termine findet online statt, damit sich das Kolloquium gut in Ihren Schreibprozess einfügt.
@@ -14,6 +17,8 @@ Inhaltlich folgt das Kolloquium Schritt für Schritt dem Weg einer Abschlussarbe
 2)  **Präsentation:** Sie können Ihre Arbeit vorstellen und bekommen Feedback. Dabei ist jeder Arbeitsstand willkommen: eine erste Beschreibung des Themas, ein konkretes Problem oder Theoriebausteine.
 
 3)  **Austausch:** Sie erfahren, wie andere Studierende an ihre Abschlussarbeiten herangehen, lernen mehr über Themen aus anderen Bereichen und kommen miteinander ins Gespräch. Dieser Austausch hilft nicht nur inhaltlich bei Ihrer eigenen Arbeit, sondern motiviert auch für den Schreibprozess.
+:::
+
 
 Hier findet ihr die Folien zu unseren Sitzungen.
 
