@@ -1,0 +1,382 @@
+---
+title: "Kolloquium für BA und MA Abschlussarbeiten"
+subtitle: "Sitzung 3: Literaturrecherche, Forschungsstand und Zotero"
+author: "David Schweizer"
+institute: |
+  RPTU Kaiserslautern-Landau\
+  Lehrstuhl für Policy-Analyse und Politische Ökonomie
+date: 2026-11-24
+date-format: "DD.MM.YYYY"
+lang: de
+format:
+  revealjs:
+    theme: [default, rptu.scss]
+    logo: rptu-logo.png
+    footer: "RPTU Kaiserslautern-Landau | WiSe 2026/27"
+    slide-number: true
+    transition: none
+    width: 1600
+    height: 900
+title-slide-attributes:
+  data-background-color: "#042c58"
+execute:
+  echo: true
+  warning: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(ggplot2)
+library(showtext)
+
+rptu_cols <- c(
+  dunkelblau  = "#042c58", hellblau   = "#6ab2e7",
+  blaugrau    = "#507289", gruengrau  = "#77b6ba",
+  dunkelgruen = "#006b6b", hellgruen  = "#26d07c",
+  violett     = "#4c3575", pink       = "#d13896",
+  rot         = "#e31b4c", orange     = "#ffa252"
+)
+
+font_add_google("Red Hat Text", "Red Hat Text")
+showtext_auto()
+knitr::opts_chunk$set(fig.showtext = TRUE)
+```
+
+## Heute
+
+1.  Eure Forschungsfragen und Suchbegriffe
+2.  Literatur suchen und mit Zotero speichern
+3.  Übung: Suchen und speichern
+4.  Gute Quellen, KI und Lesen
+5.  Übung: Prüfend lesen
+6.  Vom Lesen zum Forschungsstand
+
+# Eure Forschungsfragen {background-color="#042c58"}
+
+## Frage und Suchbegriffe (je 2 Minuten)
+
+-   Wie lautet deine **aktuelle Forschungsfrage**?
+-   Nenne **drei Suchbegriffe**, mit denen du nach Literatur suchen würdest, auf **Deutsch und Englisch**
+
+. . .
+
+**Die Gruppe ergänzt:** Welche Begriffe, Synonyme oder Konzepte fallen euch noch ein?
+
+
+# Literatur suchen {background-color="#042c58"}
+
+## Literatur oder Material?
+
+::::: columns
+::: {.column width="50%"}
+**Material**
+
+Das, was du **analysierst**:
+
+-   Plenarprotokolle, Reden
+-   Parteiprogramme, Koalitionsverträge
+-   Zeitungsartikel, Talkshows
+-   Interviews, die du selbst führst
+:::
+
+::: {.column width="50%"}
+**Forschungsliteratur**
+
+Das, was **andere schon herausgefunden** haben:
+
+-   Studien zu deinem Thema
+-   Theorien und Konzepte
+-   Methodenliteratur
+:::
+:::::
+
+. . .
+
+::: {.callout-note title="Merke" icon="false"}
+Beides brauchst du, aber es wird **unterschiedlich gesucht und verwendet**. Ein Zeitungsartikel kann Material sein, ist aber keine Forschungsliteratur.
+:::
+
+## Welche Literatur brauchst du?
+
+::: panel-tabset
+### Forschungsstand
+
+**Was weiß man schon über dein Thema?**
+
+-   Studien, die ähnliche Fragen untersucht haben
+-   Hilft dir, deinen eigenen Beitrag sichtbar zu machen
+-   *Beispiel:* Studien zur Akzeptanz klimapolitischer Maßnahmen
+
+### Theorie und Konzepte
+
+**Mit welchen Begriffen und Ansätzen arbeitest du?**
+
+-   Definitionen und theoretische Grundlagen
+-   Daraus entwickelst du später deinen Analyserahmen (→ 15.12.)
+-   *Beispiel:* Was genau ist „Populismus“, was „Framing“?
+
+### Methoden
+
+**Wie gehst du bei der Analyse vor?**
+
+-   Lehrbücher und Leitfäden zu deiner Methode
+-   Begründen, warum du so vorgehst (→ 12.01.)
+-   *Beispiel:* Kuckartz oder Mayring zur qualitativen Inhaltsanalyse
+:::
+
+## Wo und wie suchen?
+
+::::: columns
+::: {.column width="50%"}
+**Wo?**
+
+-   [Google Scholar](https://scholar.google.de): riesige Abdeckung, aber kein Qualitätscheck
+-   [Katalog+ der UB](https://kplus.ub.rptu.de/): Bücher, E-Books, Zeitschriften der RPTU
+-   **Von zu Hause:** [Fernzugriff](https://ub.rptu.de/en/loans-orders/access-to-electronic-resources/use-of-e-resources) der UB (z. B. per VPN)
+:::
+
+::: {.column width="50%"}
+**Wie?**
+
+-   Suchbegriffe auf **Deutsch und Englisch**
+-   `"..."` für exakte Phrasen, `OR` für Alternativen
+-   **Schneeballprinzip:** rückwärts über das Literaturverzeichnis, vorwärts über „Zitiert von“
+-   Mit einem **Review-Artikel** einsteigen
+:::
+:::::
+
+. . .
+
+*Beispiel:* `"Gebäudeenergiegesetz" OR "Heizungsgesetz"` | `"climate policy" "public acceptance"`
+
+
+## Zotero in 5 Minuten
+
+:::::: columns
+::: {.column width="50%"}
+1.  Text im Browser öffnen
+2.  Auf das **Connector-Symbol** klicken
+3.  Text und PDF landen in Zotero
+4.  In **Sammlungen** ordnen, z. B. „Forschungsstand“, „Theorie“, „Methode“
+:::
+
+:::: {.column width="50%"}
+-   Download und Connector: [zotero.org/download](https://www.zotero.org/download/)
+
+::: {.callout-tip title="Tipp" icon="false"}
+Metadaten nach dem Import **kurz prüfen**, sie sind oft unvollständig.
+:::
+
+
+::::
+::::::
+
+::: notes
+Kurze Live-Demo mit einem Text zu einer der Forschungsfragen. Kostenloses Zotero-Konto für Synchronisation empfehlen. Zitierstil und Word-Plugin kommen in der Schreib-Sitzung am 19.01.
+:::
+
+# Übung {background-color="#042c58"}
+
+## Übung, Teil 1: Suchen und speichern (15 Min.)
+
+-   Suche mit deinen Suchbegriffen **3–5 Texte** zu deiner Forschungsfrage
+-   Speichere sie mit dem **Zotero Connector**
+-   Probiere das **Schneeballprinzip** aus: rückwärts und vorwärts
+-   Prüfe: Gibt es den Text über die UB als **Volltext**?
+-   *Optional, wenn du schnell fertig bist:* Gib einen deiner Texte in [ResearchRabbit](https://www.researchrabbit.ai) ein. Findet es weitere passende Texte? Am besten mit einem englischsprachigen Artikel starten
+
+. . .
+
+Fragen? Meldet euch, ich komme vorbei!
+
+::: notes
+Herumgehen und bei Problemen mit Zugriff oder Zotero helfen. Wer ResearchRabbit ausprobiert hat, berichtet am Ende kurz.
+:::
+
+# Gute Quellen, KI und Lesen {background-color="#042c58"}
+
+## Ist das eine gute Quelle?
+
+::::: columns
+::: {.column width="50%"}
+**Kurzcheck**
+
+-   Erschienen in einer Zeitschrift **mit Peer Review**?
+-   Bekannter Verlag, bekannte Herausgeber:innen?
+-   Wird der Text von anderen **zitiert**?
+-   Ist er **aktuell** genug für deine Frage?
+:::
+
+::: {.column width="50%"}
+**Faustregeln**
+
+-   Neue Forschung steht fast immer zuerst in **Zeitschriften**
+-   **Lehrbücher und Review-Artikel** für den Einstieg
+-   **Graue Literatur** (Working Papers, Berichte): mit Vorsicht
+:::
+:::::
+
+. . .
+
+Schaut euch eure gefundenen Texte an: Bestehen sie den Check?
+
+::: notes
+Plümper (2012: 50): Neue Forschungsergebnisse werden fast immer in Zeitschriften publiziert, nicht mit Sammelbänden anfangen, Lehrbücher für den ersten Kontakt.
+
+Peer Review kurz erklären: Autor:in reicht ein → Herausgeber:in → zwei bis drei anonyme Gutachten → Annahme, Überarbeitung oder Ablehnung.
+
+Zeitschriftenlisten (deutschsprachig, international, Policy und Umwelt) auf der Kurswebsite.
+:::
+
+## KI bei der Recherche sinnvoll nutzen
+
+:::: panel-tabset
+### Sinnvoll
+
+-   **Suchbegriffe finden:** Synonyme, englische Fachbegriffe, verwandte Konzepte vorschlagen lassen
+-   **Suchanfragen bauen:** z. B. mit `"..."` und `OR` für Google Scholar
+-   **Begriffe verstehen:** Ein unbekanntes Konzept erklären lassen, als Einstieg vor dem Lesen
+-   **Orientierung in einem Text:** Einen Artikel, den du *selbst gefunden* hast, zusammenfassen lassen, um zu entscheiden, ob er relevant ist
+
+::: {.callout-tip title="Kostenlos für RPTU-Angehörige" icon="false"}
+[Chat AI der Academic Cloud](https://academiccloud.de) und [EDU-KI-Chat RLP](https://chat.edu-ki-rlp.de/login), Login mit RHRZ-Account. Mehr unter [rptu.de/ki-lehre](https://rptu.de/en/ki-lehre/ki-tools)
+:::
+
+### Mit Vorsicht
+
+-   **KI-Recherche-Tools** wie [ResearchRabbit](https://www.researchrabbit.ai) oder Semantic Scholar durchsuchen echte Datenbanken und finden verwandte Texte
+-   **Aber:** Sie finden vor allem englischsprachige Literatur. Deutschsprachige und qualitative Studien fehlen oft!
+-   **Zusammenfassungen** können Wichtiges weglassen oder falsch gewichten
+
+→ Gut zum Finden, aber **immer im Original prüfen**
+
+### Nicht sinnvoll
+
+-   **Literaturlisten erstellen lassen:** Chatbots können Quellen erstellen, die echt aussehen (Autor:innen, Titel, Zeitschrift, sogar DOI)
+-   **Zitieren, ohne den Text gesehen zu haben**
+-   **Relevanz entscheiden lassen:** Was für deine Frage wichtig ist, musst du selbst beurteilen
+
+### Regeln
+
+1.  Jede Quelle **selbst finden**: in Google Scholar oder im Katalog+ nachschlagen
+2.  Nur zitieren, was du **selbst gelesen** hast
+3.  KI-Nutzung **dokumentieren**, wie es die Prüfungsordnung bzw. Eigenständigkeitserklärung verlangt!
+::::
+
+::: notes
+Kurz halten, die ausführliche KI-Sitzung ist am 15.12. Die RPTU-Chatbots haben meist keine Websuche: gut für Suchbegriffe und Begriffserklärungen, aber noch anfälliger für erfundene Quellen. Vorher klären, welche Regeln an der RPTU bzw. am Lehrstuhl für KI in Abschlussarbeiten gelten.
+
+Wer ResearchRabbit in der Übung ausprobiert hat: kurz berichten lassen.
+
+Demo-Idee: Einen Chatbot nach fünf Studien zu einem Thema fragen und eine davon in Google Scholar suchen. Oft existiert sie nicht.
+:::
+
+## Lesen: prüfend oder analytisch?
+
+| Lesemodus | Was? | Für welche Texte? |
+|------------------|---------------------------|---------------------------|
+| **Prüfend** | Querlesen und überfliegen: Worum geht es? | Die **meisten** Texte aus der Recherche |
+| **Analytisch** | Argumentation verstehen, Begriffe erschließen, kritisch würdigen | Texte, die für dich **wichtig** sind |
+| **Vergleichend** | Mehrere Texte mit denselben Fragen lesen und vergleichen | **Kerntexte**, z. B. für Theorie und Forschungsstand |
+
+. . .
+
+**Du musst nicht alles vollständig lesen!** Prüfendes Lesen hilft dir zu entscheiden, welche Texte sich lohnen.
+
+::: notes
+Nach Stykow, Daase & MacKenzie (2010), Kap. 2. Elementares Lesen (Lesen zur Unterhaltung) für wissenschaftliche Texte kaum sinnvoll.
+
+Aktives Lesen: Fragen an den Text stellen, Schlüsselbegriffe erschließen, Notizen machen. In Zotero direkt im PDF möglich.
+:::
+
+## Übung, Teil 2: Prüfend lesen (10 Min. + 5 Min. Austausch)
+
+::::: columns
+::: {.column width="50%"}
+**Wähle einen deiner Texte und finde heraus:**
+
+1.  Was ist die **Forschungsfrage**?
+2.  Mit welchen **Konzepten oder Theorien** wird gearbeitet?
+3.  Welches **Material**, welche **Methode**?
+4.  Was ist das **zentrale Ergebnis**?
+5.  Welche **offenen Fragen** nennt das Fazit?
+:::
+
+::: {.column width="50%"}
+**Vorgehen**
+
+1.  Titel und Untertitel
+2.  Abstract
+3.  Zwischenüberschriften
+4.  Einleitung und Fazit überfliegen
+:::
+:::::
+
+. . .
+
+**Austausch:** Erklärt euch gegenseitig euren Text. Hilft er für eure Arbeit?
+
+::: notes
+Offene Fragen im Fazit sind oft ein guter Hinweis auf Forschungslücken, Bezug zur letzten Sitzung (Wege zur Fragestellung).
+:::
+
+# Vom Lesen zum Forschungsstand {background-color="#042c58"}
+
+## Was ist ein guter Forschungsstand?
+
+::::: columns
+::: {.column width="50%"}
+**Nicht**
+
+-   Text für Text nacherzählen
+-   Alles wiedergeben, was du gelesen hast
+-   Den historischen Hintergrund des Themas
+:::
+
+::: {.column width="50%"}
+**Sondern**
+
+-   Texte nach **Themen oder Positionen bündeln**
+-   **Gemeinsamkeiten, Unterschiede und Lücken** zeigen
+-   Immer mit **Bezug zu deiner Frage**
+:::
+:::::
+
+. . .
+
+> „Sie müssen vor allem zeigen, dass Ihre Idee dieser Literatur einen zusätzlichen Aspekt hinzufügt.“ (Plümper 2012: 46)
+
+::: notes
+Nach Powner (2015: 57). Wann habe ich genug? Keine feste Zahl. Faustregel: Wenn in neuen Texten immer wieder dieselben Studien zitiert werden, kennst du den Kern der Debatte. Wie man den Forschungsstand schreibt und in die Gliederung einbaut: 19.01.
+:::
+
+## Literaturmatrix
+
+| Autor:in, Jahr | Fragestellung | Theorie / Konzepte | Material / Methode | Zentrale Ergebnisse | Relevanz für meine Arbeit |
+|------------|------------|------------|------------|------------|------------|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+. . .
+
+-   Hilft dir, den **Überblick** zu behalten
+-   Zeigt dir, wo sich Texte **ähneln, unterscheiden** und wo **Lücken** sind
+-   Die Spalte „Theorie / Konzepte“ brauchen wir am 15.12. wieder!
+
+::: notes
+Angelehnt an Powner (2015: 64), für qualitative Arbeiten angepasst (statt abhängiger und unabhängiger Variable).
+:::
+
+# Bis zum 15.12. {background-color="#042c58"}
+
+-   **Aufgabe:** Erstelle eine **Literaturmatrix** mit 5 Texten zu deiner Frage
+    - Bitte am Montag, 14.12. an mich senden.
+-   **Nächste Sitzung (online, hybrid möglich):** Theorie als Analyserahmen; KI beim Schreiben
+-   **Zum Weiterlesen (optional):** Plümper (2012); Kap. 3; Powner (2015), Kap.3;  Stykow, Daase & MacKenzie (2010), Kap. 2
+
+## Quellen
+
+-   Plümper, T. (2012). *Effizient schreiben: Leitfaden zum Verfassen von Qualifizierungsarbeiten und wissenschaftlichen Texten*. München: Oldenbourg.
+-   Powner, L. C. (2015). *Empirical Research and Writing: A Political Science Student's Practical Guide*. Los Angeles: Sage.
+-   Stykow, P., Daase, C., & MacKenzie, J. (2010). *Politikwissenschaftliche Arbeitstechniken*. Paderborn: Fink.
